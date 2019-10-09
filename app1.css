@@ -1,0 +1,346 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue'), url('font/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Bebas Neue Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue Light'), url('font/BebasNeueLight.otf') format('opentype');
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-family: "Verdana", sans-serif;
+}
+
+header {
+	background-color: #272727;
+}
+
+footer {
+	background-color: #272727;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+/* ======= HEADER ======= */
+
+#containerheader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 600px;
+	list-style: none;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logoheader {
+	padding-left: 50px;
+	color: white;
+}
+
+nav {
+	padding-right: 50px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: white;
+	position: absolute;
+	top: 0;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+ul {
+	height: 70px;
+}
+
+nav li {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	color: white;
+}
+
+main {
+	background-color: blue;
+}
+
+#net {
+	color: #e50914;
+}
+
+/* ======= TOP ======= */
+
+#containertop {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+#containerlogo {
+/*	background-color: orange;*/
+	width: 30%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 40px;
+}
+
+#logo {
+	border-radius: 20%;
+}
+
+#containertitredesc {
+/*	background-color: cyan;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#titre {
+/*	background-color: grey;*/
+	color: black;
+	height: 44px;
+	font-family: "Bebas Neue";
+	font-size: 44px;
+}
+
+#desc {
+/*	background-color: yellow;*/
+	font-style: italic;
+	color: red;
+	font-family: "Bebas Neue Light";
+	font-size: 26px;
+	margin-top: 10px;
+}
+
+#reseaux {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+#twitter {
+	background-image: url(photos/itwitter.png);
+	width: 40px;
+	height: 40px;
+}
+
+#twitter:hover {
+	background-image: url(photos/itwitter2.png);
+	width: 40px;
+	height: 40px;
+}
+
+#facebook {
+	background-image: url(photos/ifacebook.png);
+	width: 40px;
+	height: 40px;
+}
+
+#facebook:hover {
+	background-image: url(photos/ifacebook2.png);
+	width: 40px;
+	height: 40px;
+}
+
+#youtube {
+	background-image: url(photos/iyoutube.png);
+	width: 40px;
+	height: 40px;
+}
+
+#youtube:hover {
+	background-image: url(photos/iyoutube2.png);
+	width: 40px;
+	height: 40px;
+}
+
+#boutondl {
+/*	background-color: pink;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#dlapple {
+/*	background-color: blue;*/
+	width: 160px;
+	height: 60px;
+	border-radius: 20px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-right: 50px;
+	margin-left: 100px;
+	transition: transform .2s;
+}
+
+#dlapple:hover {
+	border: solid #e50914;
+	transform: scale(1.1);
+}
+
+#logoapple {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+#dlandroid {
+/*	background-color: blue;*/
+	width: 160px;
+	height: 60px;
+	border-radius: 20px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	transition: transform .2s;
+}
+
+#dlandroid:hover {
+	border: solid #e50914;
+	transform: scale(1.1);
+}
+
+#logoandroid {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+.appbutton {
+	text-decoration: none;
+	color: black;
+}
+
+/* ======= PRESENTATION ======= */
+
+#containerpres {
+	background-color: #272727;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.titre {
+	font-size: 44px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: "Bebas Neue";
+}
+
+#blanc {
+	color: white;
+}
+
+#pres {
+/*	background-color: green;*/
+	color: white;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.divider {
+  margin: 0 -100%;
+  margin-top: 20px;
+}
+
+.divider::before,.divider::after {
+	content: '';
+	height: 1px;
+	border:solid 1px;
+	border-left: none;
+	border-right: none;  
+	width: 300px;
+	margin: 0 30px;  
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* ======= SCREENSHOTS ======= */
+
+#containerscreen {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -3px;
+}
+
+#screenshots {
+	display: flex;
+	flex-direction: row;
+}
+
+/* ======= VIDEOS ======= */
+
+#containervideo {
+	background-color: #e50914;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#noir {
+	color: #272727;
+}
+
+#videos {
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+}
+
+#videodim1 {
+	margin-right: 15px;
+}
+
+#videodim2 {
+	margin-left: 15px;
+}

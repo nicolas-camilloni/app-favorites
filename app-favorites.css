@@ -1,0 +1,323 @@
+body {
+	margin: 0;
+	height: 100%;
+	font-family: "Verdana", sans-serif;
+}
+
+header {
+	background-color: #272727;
+}
+
+main {
+/*	background-color: blue;*/
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	background-color: #272727;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+
+#containertitletopapp {
+/*	background-color: darkgreen;*/
+	text-align: center;
+	font-size: 26px;
+	background-color: #E8F1EF;
+	text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+	color: #272727;
+}
+
+#containerapp1 {
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 475px;
+}
+
+#containerapp2 {
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 475px;
+}
+
+#containerapp3 {
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 475px;
+}
+
+#cgapp1 {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	align-items: center;
+}
+
+#containergapp1 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+}
+
+#cdapp1 {
+	background-color: black;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#logoapp1 {
+	margin-top: 10px;
+}
+
+#titreapp1 {
+	color: black;
+}
+
+#descapp1 {
+	height: 40px;
+	margin-top: -20px;
+}
+
+#boutonapp1 {
+	background-color: white;
+	height: 60px;
+	width: 170px;
+	border-radius: 50px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#boutonapp1:hover {
+	background-color: black;
+	height: 60px;
+	width: 170px;
+	border-radius: 50px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+	color: white;
+	transition: all ease-in-out 250ms;
+}
+
+#cgapp2 {
+	background-color: #1ed760;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#cdapp2 {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	align-items: center;
+}
+
+#containergapp2 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+}
+
+#logoapp2 {
+	margin-top: 10px;
+}
+
+#titreapp2 {
+	color: black;
+}
+
+#descapp2 {
+	height: 40px;
+	margin-top: -20px;
+}
+
+#boutonapp2 {
+	background-color: white;
+	height: 60px;
+	width: 170px;
+	border-radius: 50px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.appbutton {
+	text-decoration: none;
+	color: black;
+}
+
+#boutonapp2:hover {
+	transition: all ease-in-out 250ms;
+	background-color: black;
+	color: white;
+}
+
+#cgapp3 {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	align-items: center;
+}
+
+#cdapp3 {
+	background-color: #8c9eff;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+#containergapp3 {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	height: 100%;
+}
+
+#discord {
+	border: 5px solid #8c9eff;
+}
+
+#boutonapp3 {
+	background-color: white;
+	height: 60px;
+	width: 170px;
+	border-radius: 50px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#boutonapp3:hover {
+	background-color: black;
+	color: white;
+	transition: all ease-in-out 250ms;
+}
+
+#titreapp3 {
+	color: black;
+}
+
+#descapp3 {
+	height: 40px;
+	margin-top: -20px;
+}
+
+#logoapp3 {
+	margin-top: 10px;
+}
+
+.logo {
+	border-radius: 20%;
+}
+
+.stars {
+	color: #FCC523;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.titreapp {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 32px;
+}
+
+/* ======= HEADER ======= */
+
+#containerheader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 600px;
+	list-style: none;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#logoheader {
+	padding-left: 50px;
+	color: white;
+}
+
+nav {
+	padding-right: 50px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: white;
+	position: absolute;
+	top: 0;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 100%;
+}
+
+ul {
+	height: 70px;
+}
+
+nav li {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	color: white;
+}
+
+#acc {
+	color: lightblue;
+}
