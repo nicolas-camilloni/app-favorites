@@ -1,3 +1,24 @@
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue'), url('font/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('ProximaNovaRegular'), url('font/ProximaNovaRegular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'UniSansDemoHeavyCAPS';
+	font-style: normal;
+	font-weight: normal;
+	src: local('UniSansDemoHeavyCAPS'), url('font/UniSansDemoHeavyCAPS.otf') format('opentype');
+}
+
 body {
 	margin: 0;
 	height: 100%;
@@ -86,6 +107,10 @@ footer {
 	color: black;
 }
 
+#netflixtitle {
+	font-family: "Bebas Neue";
+}
+
 #descapp1 {
 	height: 40px;
 	margin-top: -20px;
@@ -147,6 +172,10 @@ footer {
 
 #titreapp2 {
 	color: black;
+}
+
+#spotifytitle {
+	font-family: "ProximaNovaRegular";
 }
 
 #descapp2 {
@@ -225,6 +254,10 @@ footer {
 
 #titreapp3 {
 	color: black;
+}
+
+#discordtitle {
+	font-family: "UniSansDemoHeavyCAPS";
 }
 
 #descapp3 {
